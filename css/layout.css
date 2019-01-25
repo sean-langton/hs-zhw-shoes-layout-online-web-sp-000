@@ -24,6 +24,9 @@
 
 /* Positioning Classes */
 
+*{
+  box-sizing: border-box;
+}
 .col-1 {
   float: left;
   width: 60%;
