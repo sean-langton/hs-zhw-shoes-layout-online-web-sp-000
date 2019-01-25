@@ -48,15 +48,6 @@
   margin-left: 0%;
 }
 
-.clearfix:after {
-  content: ".";
-  display: block;
-  clear: both;
-  visibility: hidden;
-  height: 0;
-  line-height: 0;
-}
-
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
