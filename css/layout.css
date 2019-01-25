@@ -24,21 +24,41 @@
 
 /* Positioning Classes */
 
-*{
-  box-sizing: border-box;
-}
 .col-1 {
   float: left;
-  width: 60%;
-  margin: 20px;
+  width: 32%;
+  background: #ccc;
 }
 
 .col-2 {
   float: left;
-  width: 32%;
-  margin: 20px;
+  width: 66%;
+  background: #ccc;
+}
+
+.col-3 {
+  background: #ccc;
 }
 
 [class*="col-"] {
   margin-left: 2%;
+}
+
+.first {
+  margin-left: 0%;
+}
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
+  line-height: 0;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
