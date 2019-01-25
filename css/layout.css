@@ -36,6 +36,7 @@
 .col-2 {
   float: left;
   width: 32%;
+  margin: 20px;
 }
 
 [class*="col-"] {
